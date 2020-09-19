@@ -1,10 +1,35 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/java,gradle,maven,visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=java,gradle,maven,visualstudiocode
+# Created by https://www.toptal.com/developers/gitignore/api/java,gradle,maven,visualstudiocode,groovy
+# Edit at https://www.toptal.com/developers/gitignore?templates=java,gradle,maven,visualstudiocode,groovy
+
+### Groovy ###
+# .gitignore created from Groovy contributors in https://github.com/apache/groovy/blob/master/.gitignore
+
+user.gradle
+.gradle/
+target/
+build/
+out/
+
+*.DS_Store
+*.class
+*.swp
+*~
+
+.idea
+*.iml
+*.ipr
+*.iws
+.shelf
+
+.settings/
+.classpath
+.project
+bin/
+
 
 ### Java ###
 # Compiled class file
-*.class
 
 # Log file
 *.log
@@ -28,7 +53,6 @@
 hs_err_pid*
 
 ### Maven ###
-target/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -54,7 +78,6 @@ buildNumber.properties
 
 ### Gradle ###
 .gradle
-build/
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -71,4 +94,4 @@ gradle-app.setting
 ### Gradle Patch ###
 **/build/
 
-# End of https://www.toptal.com/developers/gitignore/api/java,gradle,maven,visualstudiocode
+# End of https://www.toptal.com/developers/gitignore/api/java,gradle,maven,visualstudiocode,groovy
