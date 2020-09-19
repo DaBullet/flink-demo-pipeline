@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/java,gradle,maven
-# Edit at https://www.toptal.com/developers/gitignore?templates=java,gradle,maven
+# Created by https://www.toptal.com/developers/gitignore/api/java,gradle,maven,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=java,gradle,maven,visualstudiocode
 
 ### Java ###
 # Compiled class file
@@ -40,6 +40,18 @@ buildNumber.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
 
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
 ### Gradle ###
 .gradle
 build/
@@ -59,4 +71,4 @@ gradle-app.setting
 ### Gradle Patch ###
 **/build/
 
-# End of https://www.toptal.com/developers/gitignore/api/java,gradle,maven
+# End of https://www.toptal.com/developers/gitignore/api/java,gradle,maven,visualstudiocode
